@@ -1,8 +1,5 @@
 **AI cleanup phase (Terraformer output → production-ready Terraform)** using **cagent + Terraform MCP Server** on **Windows 11**.
 
----
-
-````md
 # Terraformer AI Cleanup Guide (Windows 11) — cagent + Terraform MCP Server
 
 This guide starts **after** you already completed Terraformer infra scan and you have generated Terraform `.tf` files (and maybe `.tfstate`) from Azure.
@@ -39,7 +36,6 @@ Open PowerShell and run:
 mkdir C:\terraformer-ai-cleanup -Force
 mkdir C:\terraformer-ai-cleanup\input -Force
 mkdir C:\terraformer-ai-cleanup\output -Force
-````
 
 ---
 
