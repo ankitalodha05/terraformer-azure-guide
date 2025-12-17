@@ -2,7 +2,7 @@
 
 # Terraformer AI Cleanup Guide (Windows 11) — cagent + Terraform MCP Server
 
-This guide starts **after** you already completed Terraformer infra scan and you have generated Terraform `.tf` files (and maybe `.tfstate`) from Azure.
+This guide starts **after**  completed Terraformer infra scan and you have generated Terraform `.tf` files (and maybe `.tfstate`) from Azure.
 
 Goal:
 - Take Terraformer output (messy auto-generated Terraform)
@@ -15,12 +15,12 @@ Goal:
 
 ### A) Tools
 - Windows 11 (PowerShell)
-- Terraform installed (your Terraform is OK)
+- Terraform installed 
 - Docker Desktop installed + running (recommended)
 - Azure CLI installed (optional, only needed later for import)
 - Git (optional)
 
-### B) Folder Convention (same as your setup)
+### B) Folder Convention 
 We will use:
 - Working folder: `C:\terraformer-ai-cleanup`
 - Input folder: `C:\terraformer-ai-cleanup\input`
@@ -63,7 +63,7 @@ dir C:\terraformer-ai-cleanup\input
 
 ### Option A (Recommended): Download Release Binary
 
-1. Open cagent GitHub releases (from your senior’s repo link)
+1. Open cagent GitHub releases ( https://github.com/docker/cagent/releases)
 2. Download **Windows amd64** binary (usually named like `cagent-windows-amd64.exe`)
 
 ### Put it in a tools folder
@@ -110,8 +110,8 @@ Why we need this:
 
 ### Run MCP server (stdio mode) using Docker
 
-You do NOT need to run it separately if your cagent YAML starts it as a tool,
-but Docker-based setup is most stable.
+NOTE: "You do NOT need to run it separately if your cagent YAML starts it as a tool,
+but Docker-based setup is most stable".
 
 Test Docker is running:
 
@@ -120,6 +120,7 @@ docker ps
 ```
 
 Optional: pull image (faster later)
+(I skipped this)
 
 ```powershell
 docker pull hashicorp/terraform-mcp-server:0.3.3
@@ -146,8 +147,7 @@ notepad C:\terraformer-ai-cleanup\terraform-cleanup.yaml
 
 ### Sample YAML (template)
 
-> This is a simple structure. Your org may already have a standard YAML.
-> If your senior provided a YAML, use that.
+> This is a simple structure. Your org may already have a standard YAML, use that.
 
 Minimum example (root agent + MCP tool):
 
@@ -219,6 +219,8 @@ cagent run .\terraform-cleanup.yaml
 If the tool opens an interactive prompt and asks you to type something, type:
 
 * `start`
+  
+it will start the process -- 
 
 After completion, your cleaned code should be in:
 `C:\terraformer-ai-cleanup\output`
@@ -319,7 +321,7 @@ So your output may contain:
 
 ---
 
-## 10) Package output for seniors / internal tool testing
+## 10) Package output
 
 Create zip:
 
@@ -354,7 +356,7 @@ Note:
 
 ---
 
-## 12) Optional next steps (ONLY if asked by senior)
+## 12) Optional next steps : (only do after getting input by authorised person)
 
 ### A) Initialize providers (optional)
 
@@ -374,7 +376,7 @@ Usually flow:
 
 ---
 
-## Quick Proofs to show seniors
+## Quick Proofs to show :
 
 1. Validation proof:
 
