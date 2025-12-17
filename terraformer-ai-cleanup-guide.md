@@ -404,11 +404,3 @@ Usually flow:
   ```
 
 ---
-
-```
-
----
-
-If you want, I can also generate a **second file** like `ai-cleanup-runbook-short.md` (1-page quick steps) for daily usage.
-::contentReference[oaicite:0]{index=0}
-```
