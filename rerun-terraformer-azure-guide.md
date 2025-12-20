@@ -1,3 +1,4 @@
+this document works when you have already work on terraformer and working now for second time.
 
 
 It includes : Azure login, subscription setup, Terraformer execution, Windows fixes, and demo notes.
