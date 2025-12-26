@@ -2,7 +2,7 @@
 
 ## Overview
 
-This screenshot represents a **security posture summary of an Azure tenant**, generated using **Scout Suite**.
+This Dashboard represents a **security posture summary of an Azure tenant**, generated using **Scout Suite**.
 
 Scout Suite is a **read-only security assessment tool** that evaluates Azure configurations against **security best practices and CIS-aligned controls**.  
 The dashboard provides **visibility**, not enforcement or certification.
