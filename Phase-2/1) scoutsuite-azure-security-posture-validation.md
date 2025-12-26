@@ -1,6 +1,5 @@
-```md
 # Azure Infrastructure Security Validation  
-## Terraformer → Scout Suite → AI Cleanup (Beginner-Friendly Guide)
+## Terraformer → Scout Suite → AI Cleanup
 
 **Author:** Ankita Lodha  
 **Date:** 26-Dec-2025  
@@ -15,8 +14,6 @@ This document describes the **exact steps that worked successfully** to:
 1. Export Azure infrastructure using **Terraformer**
 2. Validate the exported infrastructure using **Scout Suite**
 3. Identify where **AI-based cleanup and remediation** fits next
-
-The goal is to provide a **clear, repeatable, beginner-friendly guide** that can be followed by any team member without impacting existing infrastructure.
 
 ---
 
