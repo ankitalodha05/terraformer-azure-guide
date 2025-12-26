@@ -1,9 +1,5 @@
-
-
-
 # Terraformer Azure Infrastructure Export – End-to-End Working Guide
 
-Author: Ankita Lodha  
 Environment Used: Windows 11 + Ubuntu (WSL)  
 Purpose: Reverse-engineer an existing Azure subscription into Terraform code using Terraformer and prepare it for AI-based cleanup.
 
