@@ -64,14 +64,18 @@ az network nsg list --query "[?contains(name,'vm-vc-dev')].name" -o tsv
 az network nic list --query "[?contains(name,'vm-vc-dev')].name" -o tsv
 az network public-ip list --query "[?contains(name,'vm-vc-dev')].name" -o tsv
 ```
+<img width="996" height="209" alt="image" src="https://github.com/user-attachments/assets/424c1543-2ad9-4c8e-9cff-f4aeea8cae0d" />
+
 
 ### Terraformer Has
 
 ```bash
 grep -R --include="*.tf" -n "vm-vc-dev" /root/tf-scan-subscription-no-db/azurerm || echo "Not present in Terraformer output"
 ```
+<img width="1000" height="124" alt="image" src="https://github.com/user-attachments/assets/6bc9c599-5b1c-4546-9174-a97e45310749" />
 
-### Shows
+
+### This Shows
 
 Resources exist in Azure but are missing from Terraformer output.
 
