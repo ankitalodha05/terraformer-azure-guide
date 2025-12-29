@@ -10,24 +10,20 @@ This document shows:
 * How to create a ZIP file
 * How to verify the ZIP before sharing
 
-✅ What we are zipping
+## ✅ What we are zipping
 
 Terraformer output directory:
 
+```
 /root/tf-scan-subscription-no-db/azurerm
-
+```
 
 This contains:
 
-.tf files
-
-terraform.tfstate
-
-provider files
-
-resource definitions
-
----
+* `.tf` files
+* `terraform.tfstate`
+* provider files
+* resource definitions
 
 ## 1. Navigate to Terraformer Output Directory
 
