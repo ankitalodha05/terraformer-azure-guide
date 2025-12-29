@@ -26,6 +26,7 @@ Fetches real Azure resources from the subscription.
 ### Shows
 
 Actual count of Azure resources (source of truth).
+<img width="987" height="711" alt="image" src="https://github.com/user-attachments/assets/5ba6cc5f-4cee-4568-b71d-877d22c347dd" />
 
 ---
 
