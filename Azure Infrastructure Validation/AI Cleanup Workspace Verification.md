@@ -38,6 +38,8 @@ ls -ld input output shared
 ```
 
 Confirms all required AI cleanup directories exist.
+-----------------------------------
+
 
 <img width="828" height="638" alt="image" src="https://github.com/user-attachments/assets/3405bf6a-dbec-4258-8097-039828403b38" />
 
